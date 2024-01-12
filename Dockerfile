@@ -1,4 +1,3 @@
-FROM nginx
-COPY index.html /var/www/html/
+FROM ubuntu/apache2
+COPY . /var/www/html/
 EXPOSE 80
-ENTRYPOINT ["nginx", "-g", "daemon off;"]

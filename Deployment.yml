@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: zaidp/website-web-app
+        image: zaidp/website-web-app-1
         ports:
         - containerPort: 80
 ---
